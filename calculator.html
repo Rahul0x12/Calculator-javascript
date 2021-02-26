@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculation.js"></script>
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="screen bg-black">
+            <div id="first-screen">
+                <span>0</span>
+            </div>
+            <div class="second-screen">
+                <span class="bottom-screen">0</span>
+            </div>
+        </div>
+        <div class="keyboard bg-black">
+            <input type="button" name="clear" value="C" onclick="sperform(this.name)"/>
+            <input type="button" name="square" value="x²" onclick="perform(this.name)"/>
+            <input type="button" name="sqrt" value="√" onclick="perform(this.name)"/>
+            <input type="button" name="bs" value="⌫" onclick="sperform(this.name)"/>
+            <input type="button" name="1" value="1" onclick="perform(this.name)"/>
+			<input type="button" name="2" value="2" onclick="perform(this.name)"/>
+			<input type="button" name="3" value="3" onclick="perform(this.name)"/>
+			<input type="button" name="+" value="+" onclick="perform(this.name)"/>
+			<input type="button" name="4" value="4" onclick="perform(this.name)"/>
+			<input type="button" name="5" value="5" onclick="perform(this.name)"/>
+			<input type="button" name="6" value="6" onclick="perform(this.name)"/>
+			<input type="button" name="-" value="-" onclick="perform(this.name)"/>
+			<input type="button" name="7" value="7" onclick="perform(this.name)"/>
+			<input type="button" name="8" value="8" onclick="perform(this.name)"/>
+			<input type="button" name="9" value="9" onclick="perform(this.name)"/>
+			<input type="button" name="*" value="*" onclick="perform(this.name)"/>
+			<input type="button" name="." value="." onclick="perform(this.name)"/>
+			<input type="button" name="0" value="0" onclick="perform(this.name)"/>
+			<input type="button" name="=" value="=" onclick="perform(this.name)"/>
+			<input type="button" name="/" value="/" onclick="perform(this.name)"/>
+        </div>
+    </div>
+</body>
+</html>
